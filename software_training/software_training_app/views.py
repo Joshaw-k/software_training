@@ -22,4 +22,16 @@ def teacher(request):
 
 def menu(request):
     context = {}
-    return render(request,'menu.html',context)         
+    return render(request,'menu.html',context)     
+
+def blog(request):
+    context = {}
+    return render(request,'blog.html',context)      
+
+def team(request):
+    context = {}
+    return render(request,'team.html',context)      
+
+def gallery(request):
+    context = {}
+    return render(request,'gallery.html',context)      
